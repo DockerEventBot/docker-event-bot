@@ -44,6 +44,7 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 - 📅 **Calendar** — add the event to Google Calendar or Apple Calendar (.ics) straight from the card.
 - ✅ **Attendance and reliability** — “Were you there?” poll after the event, admin marks, attendance stats and achievements for each chat.
 - 💰 **Cost split (optional)** — enter the court rent, the card shows the per-person share and recalculates as people sign up. Money doesn’t go through the bot.
+- ⏱️ **Duration by headcount (optional)** — more people, longer game: “from 6 people — an hour, from 10 — an hour and a half”. The card updates the duration as people join.
 - 🔔 **Cancelling, rescheduling, edits** — everyone who signed up gets a personal message showing what was and what is now.
 - 🏆 **Teams and tournaments (optional)** — people create a team or join one; the card shows a table of rosters with the captain marked.
 - 📍 **Link to the place** — a map or venue link in the card, reminders and calendar.
@@ -53,7 +54,7 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 ## How it works
 
 1. **Add [@DockerEventBot](https://t.me/DockerEventBot?startgroup=true) to your group** and make it an admin — it needs this to post and pin event cards.
-2. **Create an event** in the app — or send `/start` in the chat and the bot offers the form. One-off or weekly, with a place, time and seat limit.
+2. **Create an event** in the app — or send `/start` in the chat and the bot offers the form. One-off or weekly: place, time and, if you like, a seat limit.
 3. **People tap “Join”.** The list, free seats and the waitlist update right in the card.
 
 ## The app inside Telegram

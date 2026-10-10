@@ -44,6 +44,7 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 - 📅 **Kalendar** — dodajte događaj u Google Calendar ili iPhone kalendar (.ics) direktno iz kartice.
 - ✅ **Dolasci i pouzdanost** — anketa „Da li si bio/la?” posle događaja, oznake admina, statistika dolazaka i dostignuća za svaki čet.
 - 💰 **Podela troškova (po želji)** — unesite cenu terena, kartica pokazuje deo po osobi i preračunava ga kako se ljudi prijavljuju. Novac ne ide preko bota.
+- ⏱️ **Trajanje po broju učesnika (po želji)** — više ljudi, duža igra: „od 6 ljudi — sat, od 10 — sat i po”. Kartica preračunava trajanje kako se ljudi prijavljuju.
 - 🔔 **Otkazivanje, pomeranje, izmene** — svi prijavljeni dobijaju privatnu poruku: šta je bilo i šta je sada.
 - 🏆 **Timovi i turniri (po želji)** — ljudi prave tim ili mu se pridružuju, a u kartici je tabela sastava sa kapitenom.
 - 📍 **Link do mesta** — mapa ili sajt terena u kartici, podsetnicima i kalendaru.
@@ -53,7 +54,7 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 ## Kako radi
 
 1. **Dodajte [@DockerEventBot](https://t.me/DockerEventBot?startgroup=true) u grupu** i postavite ga za admina — tako može da objavljuje i kači kartice.
-2. **Napravite događaj** u aplikaciji — ili pošaljite `/start` u četu i bot će ponuditi formu. Jednokratni ili nedeljni, sa mestom, vremenom i limitom mesta.
+2. **Napravite događaj** u aplikaciji — ili pošaljite `/start` u četu i bot će ponuditi formu. Jednokratni ili nedeljni: mesto, vreme i, po želji, limit mesta.
 3. **Ljudi pritisnu „Prijavi se”.** Spisak, slobodna mesta i lista čekanja osvežavaju se direktno u kartici.
 
 ## Aplikacija unutar Telegrama
