@@ -38,7 +38,7 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 ## Features
 
 - ⏳ **Waitlist with auto-promotion** — out of seats, people join the waitlist; someone leaves, the next person gets the seat and a personal message.
-- ⏰ **Reminders** — N hours before the start, in the chat and in private messages. A day before, the organizer is told if the event is short of its minimum.
+- ⏰ **Reminders** — up to three (say, a day and an hour before) in private messages, plus a “remind now” button for the organizer. A day before, the organizer is told if the event is short of its minimum.
 - 🔁 **Recurring events** — “every Wednesday at 20:00”: the bot posts the new card on schedule by itself. One-off events work too.
 - 👥 **Bring a friend** — “Add +1”: a friend without Telegram takes a seat and is counted in the limit.
 - 📅 **Calendar** — add the event to Google Calendar or Apple Calendar (.ics) straight from the card.
@@ -97,6 +97,9 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 
 ## Questions
 
+**Do I need to host or install the bot myself?**
+No. Docker Event Bot is a ready-to-use hosted bot: add [@DockerEventBot](https://t.me/DockerEventBot) to your group and post the first event. There is nothing to deploy and no server to run.
+
 **Is it free?**
 Yes. No subscription and no payments through the bot. The optional cost split only calculates each person’s share — money is settled between you, as before.
 
@@ -104,7 +107,7 @@ Yes. No subscription and no payments through the bot. The optional cost split on
 No. Everyone signs up with a button on the card in the group chat. The Mini App opens inside Telegram when you need more.
 
 **How is this better than a poll in the chat?**
-A Telegram poll can’t limit the number of seats, keep a waitlist or remind anyone. The bot’s card counts seats, moves the waitlist up when someone leaves and sends reminders — in the same chat.
+A Telegram poll can’t limit the number of seats, keep a waitlist or remind anyone. The bot’s card counts seats and moves the waitlist up when someone leaves — in the same chat, and the bot reminds everyone privately before the start.
 
 **Who can create and change events?**
 Only chat admins. Every action is checked on the server.
@@ -118,6 +121,6 @@ Need to split the players who signed up into teams? The [team generator](https:/
 
 ## About this repository
 
-This is the public home of Docker Event Bot: description, screenshots and a place for questions and ideas. The bot’s source code is not published here.
+This is the public home of Docker Event Bot: description, screenshots and a place for questions and ideas. The bot’s source code is not published here — and you don’t need it: the bot is already running, just add [@DockerEventBot](https://t.me/DockerEventBot) to your group.
 
 Found a bug or have an idea? [Open an issue](../../issues) or email **dockereventbot@gmail.com**. You can also rate the bot right in the app, on the Profile tab.

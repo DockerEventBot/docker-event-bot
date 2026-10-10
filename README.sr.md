@@ -38,7 +38,7 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 ## Mogućnosti
 
 - ⏳ **Lista čekanja sa automatskim pomeranjem** — nema mesta, čovek staje na listu čekanja; neko se odjavi — sledeći dobija mesto i privatnu poruku.
-- ⏰ **Podsetnici** — N sati pre početka, u četu i u privatnoj poruci. A organizatoru dan ranije — poruka ako do minimuma nedostaje ljudi.
+- ⏰ **Podsetnici** — do tri (recimo dan i sat ranije) u privatnoj poruci, plus dugme „podseti sada” za organizatora. A organizatoru dan ranije — poruka ako do minimuma nedostaje ljudi.
 - 🔁 **Redovni događaji** — „svake srede u 20:00”: bot sam objavljuje novu karticu po rasporedu. Postoje i jednokratni događaji.
 - 👥 **Prijavi prijatelja** — „Prijavi +1”: prijatelj bez Telegrama takođe zauzima mesto i računa se u limit.
 - 📅 **Kalendar** — dodajte događaj u Google Calendar ili iPhone kalendar (.ics) direktno iz kartice.
@@ -97,6 +97,9 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 
 ## Pitanja
 
+**Da li bota treba da postavim ili instaliram sam?**
+Ne. Docker Event Bot je gotov bot koji već radi: dodajte [@DockerEventBot](https://t.me/DockerEventBot) u grupu i objavite prvi događaj. Nije potreban ni server ni instalacija.
+
 **Da li je besplatno?**
 Da. Nema pretplate i nema plaćanja preko bota. Opciona podela troškova samo računa deo svakoga — novac poravnavate između sebe, kao i do sada.
 
@@ -107,7 +110,7 @@ Ne. Svako se prijavljuje dugmetom na kartici u grupnom četu. Mini App se otvara
 Dodajte @DockerEventBot u grupu i postavite ga za admina, pa napravite događaj u aplikaciji — ili pošaljite `/start` u četu. Bot objavljuje karticu sa dugmetom „Prijavi se”, a spisak učesnika, slobodna mesta i lista čekanja se u njoj sami osvežavaju.
 
 **Po čemu je ovo bolje od ankete u četu?**
-Telegram anketa ne može da ograniči broj mesta, vodi listu čekanja niti da podseća. Kartica bota sama broji mesta, pomera listu čekanja kad se neko odjavi i šalje podsetnike — u istom četu.
+Telegram anketa ne može da ograniči broj mesta, vodi listu čekanja niti da podseća. Kartica bota sama broji mesta i pomera listu čekanja kad se neko odjavi — u istom četu, a pre početka bot svakog podseti privatnom porukom.
 
 **Ko može da pravi i menja događaje?**
 Samo admini četa. Svaka radnja se proverava na serveru.
@@ -121,6 +124,6 @@ Treba da podelite prijavljene u timove? [Generator timova](https://dockerbot.app
 
 ## O ovom repozitorijumu
 
-Ovo je javna stranica Docker Event Bot-a: opis, snimci ekrana i mesto za pitanja i ideje. Izvorni kod bota ovde nije objavljen.
+Ovo je javna stranica Docker Event Bot-a: opis, snimci ekrana i mesto za pitanja i ideje. Izvorni kod bota ovde nije objavljen — i nije vam potreban: bot već radi, samo dodajte [@DockerEventBot](https://t.me/DockerEventBot) u grupu.
 
 Našli ste grešku ili imate ideju? [Otvorite issue](../../issues) ili pišite na **dockereventbot@gmail.com**. Bota možete oceniti i direktno u aplikaciji, na kartici „Profil”.
