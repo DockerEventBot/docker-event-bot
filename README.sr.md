@@ -42,7 +42,7 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 - 🔁 **Redovni događaji** — „svake srede u 20:00”: bot sam objavljuje novu karticu po rasporedu. Postoje i jednokratni događaji.
 - 👥 **Prijavi prijatelja** — „Prijavi +1”: prijatelj bez Telegrama takođe zauzima mesto i računa se u limit.
 - 📅 **Kalendar** — dodajte događaj u Google Calendar ili iPhone kalendar (.ics) direktno iz kartice.
-- ✅ **Dolasci i pouzdanost** — anketa „Da li si bio/la?” posle događaja, oznake admina, statistika dolazaka i dostignuća za svaki čet.
+- ✅ **Dolasci i pouzdanost** — anketa „Da li si bio/la?” posle događaja i oznake admina; organizator vidi ko se odjavio u poslednjem trenutku. Medalje za dolaske i serije — za svaki događaj.
 - 💰 **Podela troškova (po želji)** — unesite cenu terena, kartica pokazuje deo po osobi i preračunava ga kako se ljudi prijavljuju. Novac ne ide preko bota.
 - ⏱️ **Trajanje po broju učesnika (po želji)** — više ljudi, duža igra: „od 6 ljudi — sat, od 10 — sat i po”. Kartica preračunava trajanje kako se ljudi prijavljuju.
 - 🔔 **Otkazivanje, pomeranje, izmene** — svi prijavljeni dobijaju privatnu poruku: šta je bilo i šta je sada.
@@ -61,33 +61,40 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 
 <table>
   <tr>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/chats-sr-dark.jpg">
-        <img src="screenshots/chats-sr-light.jpg" width="200" alt="Svi četovi sa botom na jednom ekranu">
+        <img src="screenshots/chats-sr-light.jpg" width="160" alt="Svi četovi sa botom na jednom ekranu">
       </picture>
       <br><sub><b>Svi četovi na jednom ekranu</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/calendar-sr-dark.jpg">
-        <img src="screenshots/calendar-sr-light.jpg" width="200" alt="Jedan kalendar za prijave iz svih četova">
+        <img src="screenshots/calendar-sr-light.jpg" width="160" alt="Jedan kalendar za prijave iz svih četova">
       </picture>
       <br><sub><b>Jedan kalendar za sve prijave</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/event-sr-dark.jpg">
-        <img src="screenshots/event-sr-light.jpg" width="200" alt="Stranica događaja: mesta, deo po osobi i učesnici">
+        <img src="screenshots/event-sr-light.jpg" width="160" alt="Stranica događaja: mesta, deo po osobi i učesnici">
       </picture>
       <br><sub><b>Stranica događaja</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/stats-sr-dark.jpg">
-        <img src="screenshots/stats-sr-light.jpg" width="200" alt="Statistika dolazaka i serije">
+        <img src="screenshots/stats-sr-light.jpg" width="160" alt="Statistika dolazaka i serije">
       </picture>
       <br><sub><b>Dolasci i pouzdanost</b></sub>
+    </td>
+    <td align="center" width="20%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="screenshots/medals-sr-dark.jpg">
+        <img src="screenshots/medals-sr-light.jpg" width="160" alt="Medalje dostignuća: nivoi, serija dolazaka, pouzdan, spasilac, pun mesec">
+      </picture>
+      <br><sub><b>Medalje za dolaske</b></sub>
     </td>
   </tr>
 </table>

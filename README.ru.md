@@ -42,7 +42,7 @@ Docker Event Bot никого никуда не переселяет. Бот п�
 - 🔁 **Регулярные события** — «каждую среду в 20:00»: бот сам публикует новую карточку по расписанию. Разовые события тоже есть.
 - 👥 **Записать друга** — «Записать +1»: друг без Telegram тоже занимает место и учитывается в лимите.
 - 📅 **Календарь** — добавить событие в Google Календарь или в календарь iPhone (.ics) прямо из карточки.
-- ✅ **Явка и надёжность** — опрос «был(а)?» после события, отметки админа, статистика посещаемости и ачивки в каждом чате.
+- ✅ **Явка и надёжность** — опрос «был(а)?» после события и отметки админа; организатор видит, кто выписался в последний момент. Медали за посещения и серии — по каждому событию.
 - 💰 **Сплит стоимости (по желанию)** — укажите аренду зала, карточка покажет долю с человека и пересчитает её по мере записи. Деньги через бота не идут.
 - ⏱️ **Длительность по числу участников (по желанию)** — больше народу, дольше игра: «от 6 человек — час, от 10 — полтора». Карточка пересчитывает длительность по мере записи.
 - 🔔 **Отмена, перенос, правки** — все записавшиеся получат сообщение в личку: что было и что стало.
@@ -61,33 +61,40 @@ Docker Event Bot никого никуда не переселяет. Бот п�
 
 <table>
   <tr>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/chats-ru-dark.jpg">
-        <img src="screenshots/chats-ru-light.jpg" width="200" alt="Все чаты с ботом на одном экране">
+        <img src="screenshots/chats-ru-light.jpg" width="160" alt="Все чаты с ботом на одном экране">
       </picture>
       <br><sub><b>Все чаты на одном экране</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/calendar-ru-dark.jpg">
-        <img src="screenshots/calendar-ru-light.jpg" width="200" alt="Один календарь для записей из всех чатов">
+        <img src="screenshots/calendar-ru-light.jpg" width="160" alt="Один календарь для записей из всех чатов">
       </picture>
       <br><sub><b>Один календарь на все записи</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/event-ru-dark.jpg">
-        <img src="screenshots/event-ru-light.jpg" width="200" alt="Страница события: места, доля с человека и участники">
+        <img src="screenshots/event-ru-light.jpg" width="160" alt="Страница события: места, доля с человека и участники">
       </picture>
       <br><sub><b>Страница события</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/stats-ru-dark.jpg">
-        <img src="screenshots/stats-ru-light.jpg" width="200" alt="Статистика явки и серии посещений">
+        <img src="screenshots/stats-ru-light.jpg" width="160" alt="Статистика явки и серии посещений">
       </picture>
       <br><sub><b>Явка и надёжность</b></sub>
+    </td>
+    <td align="center" width="20%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="screenshots/medals-ru-dark.jpg">
+        <img src="screenshots/medals-ru-light.jpg" width="160" alt="Медали достижений: уровни, серия посещений, надёжный, выручил, полный месяц">
+      </picture>
+      <br><sub><b>Медали за посещения</b></sub>
     </td>
   </tr>
 </table>

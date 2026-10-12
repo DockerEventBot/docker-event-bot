@@ -42,7 +42,7 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 - 🔁 **Recurring events** — “every Wednesday at 20:00”: the bot posts the new card on schedule by itself. One-off events work too.
 - 👥 **Bring a friend** — “Add +1”: a friend without Telegram takes a seat and is counted in the limit.
 - 📅 **Calendar** — add the event to Google Calendar or Apple Calendar (.ics) straight from the card.
-- ✅ **Attendance and reliability** — “Were you there?” poll after the event, admin marks, attendance stats and achievements for each chat.
+- ✅ **Attendance and reliability** — “Were you there?” poll after the event and admin marks; organizers see who dropped out at the last minute. Medals for showing up and streaks for every event.
 - 💰 **Cost split (optional)** — enter the court rent, the card shows the per-person share and recalculates as people sign up. Money doesn’t go through the bot.
 - ⏱️ **Duration by headcount (optional)** — more people, longer game: “from 6 people — an hour, from 10 — an hour and a half”. The card updates the duration as people join.
 - 🔔 **Cancelling, rescheduling, edits** — everyone who signed up gets a personal message showing what was and what is now.
@@ -61,33 +61,40 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 
 <table>
   <tr>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/chats-en-dark.jpg">
-        <img src="screenshots/chats-en-light.jpg" width="200" alt="All chats with the bot on one screen">
+        <img src="screenshots/chats-en-light.jpg" width="160" alt="All chats with the bot on one screen">
       </picture>
       <br><sub><b>All chats on one screen</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/calendar-en-dark.jpg">
-        <img src="screenshots/calendar-en-light.jpg" width="200" alt="One calendar for sign-ups from all chats">
+        <img src="screenshots/calendar-en-light.jpg" width="160" alt="One calendar for sign-ups from all chats">
       </picture>
       <br><sub><b>One calendar for all sign-ups</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/event-en-dark.jpg">
-        <img src="screenshots/event-en-light.jpg" width="200" alt="Event page with seats, per-person cost and participants">
+        <img src="screenshots/event-en-light.jpg" width="160" alt="Event page with seats, per-person cost and participants">
       </picture>
       <br><sub><b>Event page</b></sub>
     </td>
-    <td align="center" width="25%">
+    <td align="center" width="20%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="screenshots/stats-en-dark.jpg">
-        <img src="screenshots/stats-en-light.jpg" width="200" alt="Attendance statistics and streaks">
+        <img src="screenshots/stats-en-light.jpg" width="160" alt="Attendance statistics and streaks">
       </picture>
       <br><sub><b>Attendance and reliability</b></sub>
+    </td>
+    <td align="center" width="20%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="screenshots/medals-en-dark.jpg">
+        <img src="screenshots/medals-en-light.jpg" width="160" alt="Achievement medals: levels, attendance streak, reliable, lifesaver, full month">
+      </picture>
+      <br><sub><b>Medals for showing up</b></sub>
     </td>
   </tr>
 </table>
