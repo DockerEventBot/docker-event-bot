@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <b>English</b> · <a href="README.ru.md">Русский</a> · <a href="README.sr.md">Srpski</a>
+  <b>English</b> · <a href="README.ru.md">Русский</a> · <a href="README.sr.md">Srpski</a> · <a href="README.fr.md">Français</a>
 </p>
 
 > **Not Docker.** Docker Event Bot is a Telegram bot for group event sign-ups. It is not related to Docker containers or Docker, Inc.
@@ -49,7 +49,7 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 - 🏆 **Teams and tournaments (optional)** — people create a team or join one; the card shows a table of rosters with the captain marked.
 - 📍 **Link to the place** — a map or venue link in the card, reminders and calendar.
 - 💬 **All your chats in one place** — the Mini App inside Telegram shows every group with the bot, all your sign-ups in one calendar, and one control panel for organizers.
-- 🌍 **English, Russian and Serbian.**
+- 🌍 **English, Russian, Serbian and French.**
 
 ## How it works
 

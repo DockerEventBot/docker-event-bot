@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> · <a href="README.ru.md">Русский</a> · <b>Srpski</b>
+  <a href="README.md">English</a> · <a href="README.ru.md">Русский</a> · <b>Srpski</b> · <a href="README.fr.md">Français</a>
 </p>
 
 > **Ovo nije Docker.** Docker Event Bot je Telegram bot za prijave na grupne događaje. Nije povezan sa Docker kontejnerima niti kompanijom Docker, Inc.
@@ -49,7 +49,7 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 - 🏆 **Timovi i turniri (po želji)** — ljudi prave tim ili mu se pridružuju, a u kartici je tabela sastava sa kapitenom.
 - 📍 **Link do mesta** — mapa ili sajt terena u kartici, podsetnicima i kalendaru.
 - 💬 **Svi vaši četovi na jednom mestu** — aplikacija unutar Telegrama prikazuje sve grupe sa botom, sve vaše prijave u jednom kalendaru i jednu kontrolnu tablu za organizatore.
-- 🌍 **Srpski, engleski i ruski.**
+- 🌍 **Srpski, engleski, ruski i francuski.**
 
 ## Kako radi
 
