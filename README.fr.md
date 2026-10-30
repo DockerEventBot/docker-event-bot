@@ -13,7 +13,7 @@
   <a href="https://t.me/DockerEventBot?startgroup=true"><b>Ajouter à un groupe</b></a> ·
   <a href="https://t.me/DockerEventBot">Ouvrir le bot</a> ·
   <a href="https://dockerbot.app/fr/">Site</a> ·
-  <a href="https://www.youtube.com/watch?v=AMKVzepg-64">Vidéo en anglais (1:25)</a>
+  <a href="https://www.youtube.com/watch?v=FidE_xEEUqA">Vidéo en anglais (1:17)</a>
 </p>
 
 <p align="center">
