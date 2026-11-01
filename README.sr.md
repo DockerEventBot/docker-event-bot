@@ -46,7 +46,7 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 - 💰 **Podela troškova (po želji)** — unesite cenu terena, kartica pokazuje deo po osobi i preračunava ga kako se ljudi prijavljuju. Novac ne ide preko bota.
 - ⏱️ **Trajanje po broju učesnika (po želji)** — više ljudi, duža igra: „od 6 ljudi — sat, od 10 — sat i po”. Kartica preračunava trajanje kako se ljudi prijavljuju.
 - 🔔 **Otkazivanje, pomeranje, izmene** — svi prijavljeni dobijaju privatnu poruku: šta je bilo i šta je sada.
-- 🏆 **Timovi i turniri (po želji)** — ljudi prave tim ili mu se pridružuju, a u kartici je tabela sastava sa kapitenom.
+- 🏆 **Prijava po timovima (po želji)** — ljudi prave tim ili mu se pridružuju, a u kartici je tabela sastava sa kapitenom. Zgodno za prijave na turnir — raspored i rezultate bot ne vodi.
 - 📍 **Link do mesta** — mapa ili sajt terena u kartici, podsetnicima i kalendaru.
 - 💬 **Svi vaši četovi na jednom mestu** — aplikacija unutar Telegrama prikazuje sve grupe sa botom, sve vaše prijave u jednom kalendaru i jednu kontrolnu tablu za organizatore.
 - 🌍 **Srpski, engleski, ruski i francuski.**

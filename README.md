@@ -46,7 +46,7 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 - 💰 **Cost split (optional)** — enter the court rent, the card shows the per-person share and recalculates as people sign up. Money doesn’t go through the bot.
 - ⏱️ **Duration by headcount (optional)** — more people, longer game: “from 6 people — an hour, from 10 — an hour and a half”. The card updates the duration as people join.
 - 🔔 **Cancelling, rescheduling, edits** — everyone who signed up gets a personal message showing what was and what is now.
-- 🏆 **Teams and tournaments (optional)** — people create a team or join one; the card shows a table of rosters with the captain marked.
+- 🏆 **Team sign-up (optional)** — people create a team or join one; the card shows a table of rosters with the captain marked. Handy for collecting tournament entries — the bot doesn’t run the bracket or keep scores.
 - 📍 **Link to the place** — a map or venue link in the card, reminders and calendar.
 - 💬 **All your chats in one place** — the Mini App inside Telegram shows every group with the bot, all your sign-ups in one calendar, and one control panel for organizers.
 - 🌍 **English, Russian, Serbian and French.**

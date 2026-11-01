@@ -46,7 +46,7 @@ Docker Event Bot ne demande à personne de changer d’outil. Le bot publie une 
 - 💰 **Partage des frais (facultatif)** — indiquez la location du terrain, la fiche affiche la part par personne et la recalcule au fil des inscriptions. L’argent ne passe pas par le bot.
 - ⏱️ **Durée selon le nombre (facultatif)** — plus de monde, partie plus longue : « à partir de 6 personnes — une heure, à partir de 10 — une heure et demie ». La fiche met la durée à jour au fil des inscriptions.
 - 🔔 **Annulations, reports, modifications** — chaque inscrit reçoit un message privé indiquant ce qui était prévu et ce qui l’est maintenant.
-- 🏆 **Équipes et tournois (facultatif)** — on crée une équipe ou on en rejoint une ; la fiche affiche un tableau des compositions avec le capitaine indiqué.
+- 🏆 **Inscription par équipes (facultatif)** — on crée une équipe ou on en rejoint une ; la fiche affiche un tableau des compositions avec le capitaine indiqué. Pratique pour recueillir les inscriptions à un tournoi — le bot ne gère ni le tableau ni les scores.
 - 📍 **Lien vers le lieu** — une carte ou un lien vers le lieu dans la fiche, les rappels et le calendrier.
 - 💬 **Tous vos groupes au même endroit** — la Mini App dans Telegram montre tous les groupes avec le bot, toutes vos inscriptions dans un seul calendrier et un seul tableau de bord pour les organisateurs.
 - 🌍 **Anglais, russe, serbe et français.**
