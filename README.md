@@ -48,6 +48,9 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 - 🔔 **Cancelling, rescheduling, edits** — everyone who signed up gets a personal message showing what was and what is now.
 - 🏆 **Team sign-up (optional)** — people create a team or join one; the card shows a table of rosters with the captain marked. Handy for collecting tournament entries — the bot doesn’t run the bracket or keep scores.
 - 📍 **Link to the place** — a map or venue link in the card, reminders and calendar.
+- 📝 **Event description** — paid parking, ID at the entrance, what to bring: written once, shown in the card as a collapsed quote and sent with reminders and to the calendar.
+- 🗂 **Groups with topics** — each event can live in its own topic: the card is posted and pinned there, and the chat reminder and line-ups go there too. Send /start in a topic and the form opens with it.
+- ⚖️ **Split into teams** — the admin splits everyone who signed up into teams, at random or evenly by level, and posts the line-ups in the chat.
 - 💬 **All your chats in one place** — the Mini App inside Telegram shows every group with the bot, all your sign-ups in one calendar, and one control panel for organizers.
 - 🌍 **English, Russian, Serbian and French.**
 

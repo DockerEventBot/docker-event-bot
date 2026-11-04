@@ -48,6 +48,9 @@ Docker Event Bot ne demande à personne de changer d’outil. Le bot publie une 
 - 🔔 **Annulations, reports, modifications** — chaque inscrit reçoit un message privé indiquant ce qui était prévu et ce qui l’est maintenant.
 - 🏆 **Inscription par équipes (facultatif)** — on crée une équipe ou on en rejoint une ; la fiche affiche un tableau des compositions avec le capitaine indiqué. Pratique pour recueillir les inscriptions à un tournoi — le bot ne gère ni le tableau ni les scores.
 - 📍 **Lien vers le lieu** — une carte ou un lien vers le lieu dans la fiche, les rappels et le calendrier.
+- 📝 **Description de l’événement** — parking payant, pièce d’identité à l’entrée, quoi apporter : écrit une fois, affiché sur la fiche en citation repliée et envoyé avec les rappels et dans l’agenda.
+- 🗂 **Groupes avec sujets** — chaque événement peut avoir son propre sujet : la fiche y est publiée et épinglée, et le rappel dans le groupe et les compositions y arrivent aussi. Envoyez /start dans un sujet et le formulaire s’ouvre avec lui.
+- ⚖️ **Répartition en équipes** — l’admin répartit les inscrits en équipes, au hasard ou équilibrées par niveau, et publie les compositions dans le groupe.
 - 💬 **Tous vos groupes au même endroit** — la Mini App dans Telegram montre tous les groupes avec le bot, toutes vos inscriptions dans un seul calendrier et un seul tableau de bord pour les organisateurs.
 - 🌍 **Anglais, russe, serbe et français.**
 
