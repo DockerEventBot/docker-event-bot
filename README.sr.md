@@ -42,7 +42,7 @@ Docker Event Bot ne traži od nikoga da se seli. Bot objavi karticu događaja u 
 - 🔁 **Redovni događaji** — „svake srede u 20:00”: bot sam objavljuje novu karticu po rasporedu. Postoje i jednokratni događaji.
 - 👥 **Prijavi prijatelja** — „Prijavi +1”: prijatelj bez Telegrama takođe zauzima mesto i računa se u limit.
 - 📅 **Kalendar** — dodajte događaj u Google Calendar ili iPhone kalendar (.ics) direktno iz kartice.
-- 🌍 **Vremenske zone** — događaj ima svoju zonu, a vreme početka svako vidi u svojoj.
+- 🌍 **Vremenske zone** — događaj ima svoju zonu, koja piše u kartici, a u aplikaciji svako vidi vreme početka u svojoj.
 - ✅ **Dolasci i pouzdanost** — anketa „Da li si bio/la?” posle događaja i oznake admina; organizator vidi ko se odjavio u poslednjem trenutku. Medalje za dolaske i serije — za svaki događaj.
 - 💰 **Podela troškova (po želji)** — unesite cenu terena, kartica pokazuje deo po osobi i preračunava ga kako se ljudi prijavljuju. Novac ne ide preko bota.
 - ⏱️ **Trajanje po broju učesnika (po želji)** — više ljudi, duža igra: „od 6 ljudi — sat, od 10 — sat i po”. Kartica preračunava trajanje kako se ljudi prijavljuju.
