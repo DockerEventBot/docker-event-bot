@@ -42,6 +42,7 @@ Docker Event Bot ne demande à personne de changer d’outil. Le bot publie une 
 - 🔁 **Événements réguliers** — « chaque mercredi à 20:00 » : le bot publie lui-même la nouvelle fiche à l’heure prévue. Les événements ponctuels marchent aussi.
 - 👥 **Venir avec un ami** — « Ajouter +1 » : un ami sans Telegram prend une place et compte dans la limite.
 - 📅 **Calendrier** — ajoutez l’événement à Google Agenda ou au Calendrier Apple (.ics) directement depuis la fiche.
+- 🌍 **Fuseaux horaires** — chaque événement a son fuseau, et chacun voit l’heure de début dans le sien.
 - ✅ **Présence et fiabilité** — sondage « Vous y étiez ? » après l’événement et marques des admins ; les organisateurs voient qui s’est désisté à la dernière minute. Des médailles pour la présence et des séries pour chaque événement.
 - 💰 **Partage des frais (facultatif)** — indiquez la location du terrain, la fiche affiche la part par personne et la recalcule au fil des inscriptions. L’argent ne passe pas par le bot.
 - ⏱️ **Durée selon le nombre (facultatif)** — plus de monde, partie plus longue : « à partir de 6 personnes — une heure, à partir de 10 — une heure et demie ». La fiche met la durée à jour au fil des inscriptions.

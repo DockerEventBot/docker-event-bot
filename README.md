@@ -42,6 +42,7 @@ Docker Event Bot doesn’t ask anyone to move. The bot posts an event card in yo
 - 🔁 **Recurring events** — “every Wednesday at 20:00”: the bot posts the new card on schedule by itself. One-off events work too.
 - 👥 **Bring a friend** — “Add +1”: a friend without Telegram takes a seat and is counted in the limit.
 - 📅 **Calendar** — add the event to Google Calendar or Apple Calendar (.ics) straight from the card.
+- 🌍 **Time zones** — each event has its own time zone, and everyone sees the start time in their own.
 - ✅ **Attendance and reliability** — “Were you there?” poll after the event and admin marks; organizers see who dropped out at the last minute. Medals for showing up and streaks for every event.
 - 💰 **Cost split (optional)** — enter the court rent, the card shows the per-person share and recalculates as people sign up. Money doesn’t go through the bot.
 - ⏱️ **Duration by headcount (optional)** — more people, longer game: “from 6 people — an hour, from 10 — an hour and a half”. The card updates the duration as people join.
